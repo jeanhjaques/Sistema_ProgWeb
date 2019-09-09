@@ -13,6 +13,6 @@
     $pass = "";
     // conecta ao banco de dados
     $con = mysqli_connect($host, $user, $pass) or trigger_error(mysql_error(), E_USER_ERROR); 
-    // seleciona a base de dados em que vamos trabalhar
+    // seleciona a base de dados
     mysqli_select_db($con, $db); //1° parametro e o retorno do mysqli_connect e o 2° e a database
 ?>
