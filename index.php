@@ -9,7 +9,7 @@
         <title>Teste</title>
     </head>
     <body>
-        <form action="print.php" method="post">
+        <form action="PageUser.php" method="post">
             <span><strong>Nome: </strong></span>
             <input type="text" name="nome">
             <br>
