@@ -1,18 +1,5 @@
 <?php
     include "functions.php";
-    if(isset($_POST["submit"])){
-        
-        $nome = $_POST['nome'];
-        $nsc = $_POST['nsc'];
-        $cpf = $_POST['cpf'];
-        $endereco = $_POST['endereco'];
-        $cep = $_POST['cep'];
-        $num_cartao = $_POST['cartao'];
-        $login = $_POST['login'];
-        $senha = MD5($_POST['senha']);
-
-        InsertUser($nome, $nsc, $cpf, $endereco, $cep, $num_cartao, $login, $senha);
-    }
     
 ?>
 <!DOCTYPE html>
